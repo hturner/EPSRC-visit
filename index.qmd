@@ -1,0 +1,322 @@
+---
+title: Sustainability & EDI in the R Project
+author: Heather Turner 
+institute: EPSRC RSE Fellow, Statistics 
+date: 2024-12-10
+date-format: long
+format: 
+  warwickpres-revealjs: 
+    width: 1280
+    height: 720
+    title-slide-attributes: 
+      data-background-image: warwick-logo-white.png
+      data-background-size: 15%
+      data-background-position: 100% 0%
+engine: knitr
+### To remove the logo from the title page, 
+### delete lines 7-12 above and uncomment the two lines below
+#format:
+#  warwickpres-revealjs: default
+---
+
+## RSE Fellowships
+
+```{css, echo = FALSE}
+.col-box1 {
+  border-radius: 25px;
+  background: #C4EBE4;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 450px;
+}
+.col-box2 {
+  border-radius: 25px;
+  background: #E9AEB0;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 450px;
+}
+.col-box3 {
+  border-radius: 25px;
+  background: #B19FBA;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 450px;
+}
+```
+
+::: columns
+::: {.column width="60%"}
+2021<br>
+![](img/ed_bennett.jpeg){width=80}
+![](img/andrew_brown.jpg){width=80}
+![](img/domhnall_carlin.jpg){width=80}
+![](img/tom_dowrick.png){width=80}
+![](img/eilis_hannon.jpg){width=80}
+![](img/peter_hill.jpeg){width=80}
+![](img/james_knight.jpg){width=80}
+![](img/heather_turner.jpg){width=80}
+
+2018<br>
+![](img/jeremy_cohen.png){width=80}
+![](img/phil_hasnip.jpg){width=80}
+![](img/joanna_leng.jpeg){width=80}
+![](img/leila_muresan.jpg){width=80}
+
+2016<br>
+![](img/louise_brown.jpg){width=80}
+![](img/ian_bush.jpg){width=80}
+![](img/mike_croucher.jpg){width=80}
+![](img/oliver_henrich.png){width=80}
+![](img/christopher_richardson.jpeg){width=80}
+![](img/paul_richmond.jpg){width=80}
+![](img/chris_woods.jpeg){width=80}
+:::
+
+::: {.column width="40%"}
+<br>
+
+* 5-year fellowships
+
+* Establish Research Software Engineering in the UK
+
+* EPSRC released first call in 2015
+
+:::
+:::
+
+## My Fellowship (2021 - 2026)
+
+:::: {.columns}
+
+::: {.column width="35%"}
+::: {.center-h .smaller80}
+![](img/headshot_500x500.jpg){width=200}<br>
+Associate Professor
+
+![](img/ella_profile.jpg){width=200}<br>
+Ella Kaye, RSE (part-time)
+:::
+:::
+
+::: {.column width="65%"}
+<br><br>
+"Sustainability & EDI in the R Project"
+
+💻 &nbsp; Contributing to the R project through code, infrastructure & outreach
+
+🚀 &nbsp; Capacity-building in R and data science at Warwick
+
+💪 &nbsp; Community-building in the R and RSE communities with a focus on EDI
+:::
+
+:::
+
+## The R Project
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![[R Project logo](https://www.r-project.org/logo/), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)](img/Rlogo.png)
+:::
+
+::: {.column width="70%"}
+- R is a programming language for statistical computing and data science
+- Originally developed by academics, now widely used across sectors and domains
+- Used for critical “production” applications (e.g., COVID-19 modelling), as well as prototyping
+- Core R project underpins ~20,000 packages
+:::
+
+::::
+
+
+## Sustainability and EDI
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](img/r_core_commits.png){fig-alt="Heatmap showing number of commits by R Core 
+Developers, 1997 - 2024"}
+:::
+
+::: {.column width="30%"}
+<br>
+
+- Many core developers retired or less active
+
+- Only partially replaced by new members
+
+- Core team mostly white men from USA and Europe
+:::
+
+::::
+
+## Communications
+
+::: {columns}
+::: {.column .center-h .col-box1 width="32%"}
+[`r emo::ji("globe_with_meridians")`]{fig-alt="Globe with meridians" style="font-size: 100px;"}
+
+Improve website:
+
+* Move to r-project.org
+* Event calendar
+* Learning resources
+:::
+
+::: {.column .center-h .col-box3 width="32%"}
+![](img/slack.png){fig-alt="Slack logo" height=100}
+
+Slack group:
+
+* Beginner queries
+* Informal feedback
+* Networking
+
+:::
+
+::: {.column .center-h .col-box2 width="32%"}
+![](img/social_media.png){fig-alt="Mastodon, Bluesky and LinkedIn logos" height=100}
+
+Social media:
+
+* Event announcements
+* Calls for participation
+* News of activities
+:::
+:::
+
+## Infrastructure
+
+:::: {.columns}
+
+::: {.column .center-h width="50%"}
+R Dev Container
+
+```{r, out.width = "90%"}
+#| echo: false
+#| eval: true
+#| fig-align: "center"
+#| fig-alt: "Screenshot of R Dev Container running in GitHub Codespaces."
+knitr::include_graphics('img/r_dev_container.png')
+```
+:::
+
+::: {.column .center-h width="50%"}
+R Dev Guide
+
+```{r, out.width = "90%"}
+#| echo: false
+#| eval: true
+#| fig-align: "center"
+#| fig-alt: "Cartoon of a book with pages fanned open. In between the pages are cartoons of people involved in building work. At the start are beginners: people working with building blocks. A person is climbing a ladder to later pages. In the middle are the intermediate builders, sitting on a large bar attached to a crane. At the end are seasoned builders admiring a cityscape of buildings."
+knitr::include_graphics('img/r-dev-guide-without-text.jpg')
+```
+:::
+
+::::
+
+## Facilitate Learning
+
+:::: {.columns}
+
+::: {.column .center-h width="50%"}
+Collaboration Campfires
+
+![](img/CSandSSquare5.svg){fig-alt="Screenshot of R Dev Container running in GitHub Codespaces." height=200}
+
+* Interactive 90 min sessions
+* Discover opportunities for contribution
+* For newbies
+:::
+
+::: {.column .center-h width="50%"}
+C Study Group
+
+![](img/CS50.png){fig-alt="Still from one of the CS50 videos, showing the professor speaking next to a big screen showing the words 'This is CS50'." height=200}
+
+* Using open videos and textbooks
+* Monthly workplan and meetup
+* For intermediate contributors
+:::
+::::
+
+## Facilitate Contribution
+
+::: columns
+::: {.column .center-h width="33%"}
+Office hours ![](img/office-hours.png)
+
+Visits<br>
+![](img/jonathan_godfrey.jpg){width="40%"}
+![](img/paul_murrell.jpg){width="40%"}
+![](img/nick_tierney.jpeg){width="40%"}
+![](img/saranjeet_kaur_bhogal.jpg){width="40%"}
+:::
+
+::: {.column .center-h width="66%"}
+R Project Sprint 2023 ![](img/r_project_sprint_2023.png){width="100%"}
+
+R Dev Days<br> [![](img/dev_day1.jpg){width="48%"} ![](img/dev_day2.jpg){width="48%"}](https://contributor.r-project.org/events/)
+:::
+
+:::
+
+## Future plans
+
+## Summary
+
+
+```{=html}
+<!-- needs to be last chunk of presentation otherwise creates an extra slide -->
+<!-- requires Quarto v1.3 -->
+<!-- tint80 for border, tint20 for title -->
+<!-- this should hopefully no longer be necessary in a future version of Quarto -->
+<!-- https://github.com/quarto-dev/quarto-cli/issues/5038 -->
+<style type="text/css">
+.img-100{
+  width: 100px;
+  display: inline-block;
+}
+
+div.callout-note {
+  border-left-color: #00A9CE !important;
+}
+
+div.callout-note.callout-style-default .callout-title {
+  background-color: #B3E5F0 !important;
+}
+
+div.callout-warning {
+  border-left-color: #CB333B !important;
+}
+
+div.callout-warning.callout-style-default .callout-title {
+  background-color: #EEC3C3 !important;
+}
+
+div.callout-tip {
+  border-left-color: #6DCDB8 !important;
+}
+
+div.callout-tip.callout-style-default .callout-title {
+  background-color: #D3F0EB !important;
+}
+
+div.callout-important {
+  border-left-color: #F1BE48 !important;
+}
+
+div.callout-important.callout-style-default .callout-title {
+  background-color: #FAECC8 !important;
+}
+
+div.callout-caution {
+  border-left-color: #E87722 !important;
+}
+
+div.callout-caution.callout-style-default .callout-title {
+  background-color: #F8D5BC !important;
+}
+</style>
+```
