@@ -78,7 +78,7 @@ engine: knitr
 
 * 5-year fellowships
 
-* Establish Research Software Engineering in the UK
+* Designed to establish Research Software Engineering in the UK
 
 * EPSRC released first call in 2015
 
@@ -245,26 +245,40 @@ C Study Group
 
 ::: columns
 ::: {.column .center-h width="33%"}
-Office hours ![](img/office-hours.png)
+Office hours ![](img/office-hours.png){width="70%"}
 
 Visits<br>
-![](img/jonathan_godfrey.jpg){width="40%"}
-![](img/paul_murrell.jpg){width="40%"}
-![](img/nick_tierney.jpeg){width="40%"}
-![](img/saranjeet_kaur_bhogal.jpg){width="40%"}
+![](img/visitors.png){width="60%"}
 :::
 
 ::: {.column .center-h width="66%"}
-R Project Sprint 2023 ![](img/r_project_sprint_2023.png){width="100%"}
+R Project Sprint 2023 ![](img/r_project_sprint_2023.png){width="80%"}
 
-R Dev Days<br> [![](img/dev_day1.jpg){width="48%"} ![](img/dev_day2.jpg){width="48%"}](https://contributor.r-project.org/events/)
+R Dev Days<br> [![](img/dev_day1.jpg){width="35%"} ![](img/dev_day2.jpg){width="35%"}](https://contributor.r-project.org/events/)
 :::
 
 :::
 
 ## Future plans
 
+* Monthly work days in connection with office hours
+* Further visits 
+   - Extended visits to R Core Developers: Europe, New Zealand
+   - Host short visits of R Contributors
+* Build on success of R Dev Days
+   - Repeat events: UK, US, virtual/Latin America
+   - New partnerships, e.g. RencontresR
+   - RSE-focused event at RSECon25, Warwick
+* Opportunities for others to take the lead
+
 ## Summary
+
+The EPSRC Fellowship has enabled me to 
+
+* Facilitate wider participation in R contribution
+* Develop my own expertise in R development and community management
+* Strengthen connections between the RSE and R communities
+* Mentor early career RSEs
 
 
 ```{=html}
